@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="rectangle">
+      <h1 >Login Page</h1>
+      <form name="myform" onsubmit="checklogin()">
+        <label class="lab">Enter Username : </label>
+        <input class="ip" id="users" type="email" name="user" placeholder="Enter User Name"/><br />
+        <label class="lab">Enter password : </label>
+        <input class="ip" id="passw" type="password" name="pass" placeholder="Enter Password"/><br />
+        <input class="lab"    type="submit" value="submit" />
+        <a target="parent" class="ip" href="signup.html">Register</a>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
